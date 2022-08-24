@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&family=Roboto+Slab:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.wrap-top-header{
+    width: 100%;
+    color: #fff;
+    background: #2b2e34;
+    padding: 10px 0;
+}
+
+
+.wrap-top-header .top-email span{
+    font-size: 16px;
+}
+
+.wrap-top-header .top-search{
+    padding-left: 25%;
+}
+
+.wrap-top-header .top-search input{
+    background-color: #25262b;
+    color: #fff;
+    border: none;
+    padding: 2px 15px;
+}
+
+.wrap-top-header .top-search button{
+    background: #25262b;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    height: 30px;
+}
+/* Header-middle */
+.wrap-mid-header {
+    background-color: #25262b;
+}
+
+.wrap-mid-header .logo img{
+    width: 80px;
+    height: auto;
+    padding: 10px 0;
+}
+
+.navbar{
+    border-top: 1px solid rgb(58, 57, 57) ;
+}
+
+.wrap-navbar .nav-item{
+    padding: 4px 30px 4px 0;
+}
+
+.wrap-navbar .nav-link{
+    font-size: 15px;
+    color: #fff;
+    transition: all .4s ease-in;
+}
+
+.wrap-navbar .nav-link:hover{
+    color: orangered;
+}
+
+/* Silider */
+.slider{
+    background-color: #f66249;
+    padding: 10px 0;
+    border-top: 1px solid #fff;
+}
+
+.wrap-slider .list-item{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.list-item i{
+    color: #fff;
+    font-size: 24px;
+}
+
+.title-slide{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.title-slide span{
+    color: #fff;
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+/* Product */
+
+
+.heading{ 
+    padding: 30px 0;
+    position: relative;
+}
+
+.heading h3{ 
+    font-size: 20px;
+}
+
+.heading span{ 
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background-color: #f66249;
+    display: block;
+}
+
+.section-products{
+    background: #f7f7f9;
+    margin-bottom: 0;
+}
+
+.product .tyche-recent-posts{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #666;
+    
+}
+
+.product .tyche-recent-posts .date{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #999;
+    padding-right: 10px;
+    background-color: #fff;
+}
+
+.tyche-recent-posts .date .day{
+    font-size: 30px;
+    
+}
+
+.tyche-recent-posts .date .month{
+    font-size: 28px;
+}
+
+.product .post-content{
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.product .post-content p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.product .post-content ul{
+    list-style: none;
+    display: flex;
+}
+
+.product .post-content li{
+    margin-right: 20px;
+}
+
+/* Footer */
+.wrap-footer{
+    padding: 30px 0;
+    background-color: #25262b;
+}
+
+.content-footer .heading{
+    color: #fff;
+}
+
+.footer-list{
+    list-style: none;
+    color: #fff;
+}
+
+.content-about {
+    color: #fff;
+}
+
+.tag .btn-footer{
+    display: inline-block;
+    color: #fff;
+    background-color: #25262b;
+    border: 1px solid #fff;
+    margin: 0 4px 4px 0 ;
+    padding: 8px 4px;
+     
+}
+
+.tag .btn-footer:hover{
+    background-color:#f66249;
+    border: 1px solid #f66249;
+}
+
+.wrap-img-footer{
+    display: flex;
+    padding-top: 40px;
+}
+
+.tyche-recent .tyche-post-content .tyche-title{
+    padding-left: 10px;
+}
+
+.content-about p,
+.content-about span{
+    font-size: 14px;
+}
+
+.wrap-bottom-footer{
+    background: #2b2e34;
+    line-height: 50px;
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrap-bottom-footer .coppy-right{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icon-footer .list-icon{
+    display: flex;
+    list-style: none;   
+}
+
+.social-icon-footer .list-icon .link-icon{
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.social-icon-footer .list-icon .link-icon a{
+    color: #fff;
+}
+
+.social-icon-footer .list-icon .link-icon a:hover{
+    color:aqua;
+}
+
+/* Wrapper Shop */
+
+.header h2{
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 40px 0;
+
+}
+
+/* Search */
+.site-content{
+    padding-bottom: 30px;
+}
+
+.search{
+    margin-bottom: 50px;
+    padding: 4px 0;
+    border: 1px solid #25262b;
+    background-color: rgb(225, 217, 217);
+}
+
+.search .search-field{
+    width: 100%;
+}
+
+.search .search-field .search-input{
+    padding-right: 132px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(225, 217, 217);
+}
+
+.search .search-field .search-button{
+    padding: 4px;
+    border: none;
+    background: none;
+    outline: none;
+}
+/* End search*/
+
+/* Start: Calendar */
+.calendar-wrap{
+    border: 1px solid #999999;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.calendar-wrap .haeder-calendar{
+    color: #fff;
+    text-align: center;
+    background-color: #f66249;
+    min-height: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 11px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.wrap-calendar-table{
+    width: 100%;
+    table-layout: fixed;
+    border: 0;
+    border-collapse: separate;
+    border-spacing: 4px;
+    line-height: 1.5;
+}
+
+
+.wrap-calendar-table tr{
+    height: 50px;
+}
+
+.wrap-calendar-table th{
+    text-align: center;
+    border: none;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #717171;
+}
+
+.wrap-calendar-table td{
+    background-color: #f1f1f1;
+    color: #717171;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+}
+
+.wrap-calendar-table #today{
+    background-color: #f66249;
+    color: #f1f1f1;
+}
+
+.wrap-calendar-table #today:hover{
+    opacity: 0.9;
+}
+
+.calendar-wrap .nav-month a{
+    color: #f66249;
+    padding: 10px 0px 10px 8px;
+}
+
+.nav-month i{
+    font-size: 14px;
+    margin-right: 2px;
+}
+/* End: Calendar*/
+
+/* Start: Posts */
+.heading-aside{
+    font-size: 22px;
+    margin: 38px 0;
+}
+
+.wrap-recent-post ul{
+    list-style: none;
+}
+
+
+.recent-post .wrap-recent-post a{
+    color: #f66249;
+}
+/* End: Posts */
+/* End: Wrapper Shop */
+
+/* Start: Wrapper Blog*/
+
+.tyche-blog-post{
+    margin-bottom: 80px;
+}
+
+.tyche-breadcrumbs .breadcumb-leaf{
+    color: #999999;
+}
+
+.entry-header-info{
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.entry-header-info .date{
+    width: 55px;
+    height: 55px;
+    font-size: 23px;
+    font-weight: 700;
+    color: #2a313e;
+    display: block;
+    text-align: center;
+    background-color: #f3f3f3;
+    overflow: hidden;
+    padding: 6px;
+    line-height: 21px;
+    float: left;
+    margin-right: 15px;
+}
+
+.entry-header-info .date .month{
+    font-size: 25px;
+    font-weight: 500; 
+}
+
+.entry-header-info .title{
+    display: inline-block;
+    width: 88%;
+}
+
+.title .entry-title a:hover{
+    color: #f24021 !important;
+}
+
+.entry-header-info .title .entry-title a{
+    color: #25262b;
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+
+.meta .meta-list{
+    list-style: none;
+    display: flex;
+}
+
+.entry-content p{
+    color: #888888;
+    margin: 0;
+    padding: 0;
+    max-width: 96%;
+    text-align:start;
+}
+.entry-content a{
+    color: white;
+    background-color: #f66249;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.entry-content a:hover{
+    background-color: #f24021;
+}
+/* End: Wrapper Blog */
+/* Start: Blog*/
+.tyche-breadcrumbs{
+    margin: 40px 0;
+}
+
+.title-contact h2{
+    font-size: 30px;
+    margin: 0 0 24.9px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #2a313e;
+    clear: both;
+}
+
+.para-contact{
+}
+
+.para-contact p{
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 35px;
+}
+
+.tyche-icon-box{
+    display: flex;
+}
+
+.icon-contact{
+    padding: 14px;
+    color: #f1f1f1;
+    background-color: #25262b;
+}
+
+.tyche-icon-box .text-cotact{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.tyche-icon-box .text-cotact p{
+    margin: 0px;
+    font-weight: 700;
+}
+
+.form-group label{
+    color: #777;
+    /* font-size: 16px; */
+}
+
+.btn-send{
+    padding: 8px 34px;
+    color: #f1f1f1;
+    background-color: #f24021;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.btn-send:hover{
+    opacity: .8;
+}
+
+.maps img{
+     width: 100%;
+     height: 400px;
+}
+/* End: Blog*/
